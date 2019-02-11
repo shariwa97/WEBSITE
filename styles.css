@@ -533,7 +533,7 @@
 
 .infoimage{
 	width: 400px;
-	padding-left: 200px;
+	padding-left: 100px;
 	position: relative;
 	z-index: -2;
 }
@@ -561,7 +561,7 @@
     height:30px;
 	font-family: 'Ruda', sans-serif;
 	font-size: 20px;
-	color: #ABDB25;
+	color: #08199C;
 	display: block;
 }
 
