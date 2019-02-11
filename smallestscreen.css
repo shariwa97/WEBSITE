@@ -54,7 +54,6 @@
 
 .homelink{
 	display: inline-block;
-	margin-left: -30px;
 	padding-left: 2px;
 	font-family: 'Staatliches', monospace;
 	text-align: justify;
@@ -76,7 +75,6 @@
 
 .resumelink{
 	display: inline-block;
-	margin-right: -30px;
 	padding-right: 2px;
 	font-family: 'Staatliches', monospace;
 	text-align: justify;
@@ -98,7 +96,6 @@
 
 .infolink{
 	display: inline-block;
-	margin-right: -30px;
 	padding-right: 4px;
 	font-family: 'Staatliches', monospace;
 	text-align: justify;
@@ -122,14 +119,12 @@
 	display: ruby;
   	list-style-type: none;
   	margin-top: -100px;
-	margin-left: -30px;
   	padding-top: 15px;
   	padding-left: 2px;
 }
 
 .greenwork {
 	height: 10px;
-	margin-left: -30px;
 	font-family: 'Staatliches', cursive;
 	font-size: 15px;
 	color: #ABDB25;
@@ -147,7 +142,6 @@
 
 .pinkwork {
 	height: 10px;
-	margin-left: -30px;
 	position: relative;
 	font-family: 'Staatliches', cursive;
 	font-size: 15px;
@@ -166,7 +160,6 @@
 
 .pinkwork2 {
 	height: 10px;
-	margin-left: -30px;
 	position: relative;
 	font-family: 'Staatliches', cursive;
 	font-size: 15px;
@@ -185,7 +178,6 @@
 
 .smallgreenwork {
 	height: 10px;
-	margin-left: -30px;
 	position: relative;
 	font-family: 'Staatliches', cursive;
 	font-size: 15px;
@@ -208,7 +200,6 @@
 
 .greentitle {
 	display: inline-block;
-	margin-left: -30px;
 	width: 400px;
     	height: 9px;
 	font-family: 'Ruda', sans-serif;
@@ -222,7 +213,6 @@
 
 .greenbody {
 	display: inline-block;
-	margin-left: -30px;
 	width: 300px;
     	height:3px;
 	font-family: 'Ruda', sans-serif;
@@ -234,7 +224,6 @@
 
 .greensmallerbody {
 	display: inline-block;
-	margin-left: -30px;
 	width:300px;
     	height:3px;
 	font-family: 'Ruda', sans-serif;
@@ -245,7 +234,6 @@
 
 .captions {
 	display: block;
-	margin-left: -30px;
 	width:300px;
     	height:10px;
     	padding-left: 2px;
@@ -283,7 +271,6 @@
 
 .ecsgreentitle{
 	display: block;
-	margin-left: -30px;
 	width:300px;
     	height:15px;
 	font-family: 'Ruda', sans-serif;
@@ -297,14 +284,12 @@
 
 .ecsimage1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 400px;
 }
 
 .ecsimage2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 10px;
 }
@@ -315,7 +300,6 @@
 
 .greenbodyeat {
 	display: inline-block;
-	margin-left: -30px;
 	width:300px;
     height:20px;
 	font-family: 'Ruda', sans-serif;
@@ -326,7 +310,6 @@
 }
 .greenbodyeat2 {
 	display: inline-block;
-	margin-left: -30px;
 	text-transform: uppercase;
 	width:300px;
     height:3px;
@@ -338,7 +321,6 @@
 
 .greensmallerbodyeat {
 	display: inline-block;
-	margin-left: -30px;
 	padding-top: 10px;
 	width:300px;
 	font-family: 'Ruda', sans-serif;
@@ -349,7 +331,6 @@
 
 .greensmallerbodyram {
 	display: inline-block;
-	margin-left: -30px;
 	margin-top: 10px;
 	width:300px;
     height:10px;
@@ -361,14 +342,12 @@
 
 .eatimage1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 1%;
 	padding-top: 60px;
 }
 
 .eatimage2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 1%;
 	padding-top: 10px;
 }
@@ -379,14 +358,12 @@
 
 .ecoimage1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 80px;
 }
 
 .ecoimage2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 10px;
 }
@@ -397,14 +374,12 @@
 
 .nmcimage1 {
 	width: 100px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 100px;
 }
 
 .nmcimage2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 50px;
 }
@@ -415,20 +390,17 @@
 
 .hoopimage1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 	padding-top: 50px;
 }
 
 .hoopimage2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .container{
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 
 }
@@ -439,7 +411,6 @@
 }
 
 .containerpdf{
-	margin-left: -30px;
 	padding-left: 2px;
 
 }
@@ -448,7 +419,6 @@
 	display: block;
 	width:500px;
     height:2px;
-    margin-left: -30px;
 	padding-left: 2px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
@@ -462,31 +432,26 @@
 
 .ma1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .ma2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .ma3 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .chronicle1 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .chronicle2 {
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
@@ -496,14 +461,12 @@
 
 .textile1{
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
 .chin1{
 	margin-top: -400px;
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px;
 }
 
@@ -513,7 +476,6 @@
 
 .ram1{
 	width: 300px;
-	margin-left: -30px;
 	padding-left: 2px; 
 }
 
@@ -521,7 +483,6 @@
 .othertitle{
 	width:300px;
     height:30px;
-	margin-left: -30px;
 	padding-left: 2px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: bold;
@@ -554,7 +515,6 @@
 
 .misc1{
 	float: left;
-	margin-left: -30px;
 	padding-left: 2px;
 
 }
