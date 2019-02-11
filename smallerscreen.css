@@ -56,7 +56,7 @@
 
 .homelink{
 	display: inline-block;
-	padding-left: 6%;
+	padding-left: 2px;
 	font-family: 'Staatliches', monospace;
 	text-align: justify;
 	font-size: 30px;
@@ -79,7 +79,7 @@
 	display: inline-block;
 	font-family: 'Staatliches', monospace;
 	font-size: 30px;
-	padding-right: 3%;
+	padding-right: 2px;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -99,7 +99,7 @@
 	display: inline-block;
 	font-family: 'Staatliches', monospace;
 	font-size: 30px;
-	padding-right: 6%;
+	padding-right: 2px;
 	text-align: right;
 	color: #ABDB25;
 	text-decoration: none;
@@ -120,7 +120,7 @@
   	list-style-type: none;
   	margin-top: -75px;
   	padding-top: 30px;
-  	padding-left: 6%;
+  	padding-left: 2px;
 }
 
 .greenwork {
@@ -145,7 +145,7 @@
 	padding-top: 10px;
 	position: relative;
 	width:400px;
-    height:60px;
+    	height:60px;
 	font-family:'Staatliches', cursive;
 	font-size: 30px;
 	color: #ABDB25;
