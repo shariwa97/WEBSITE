@@ -430,11 +430,11 @@
 .captionslarger {
 	display: block;
 	width:500px;
-    height:10px;
-    padding-left: 100px;
+    	height:10px;
+    	padding-left: 8%;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 13px;
 	color: #08199C;
 }
 
