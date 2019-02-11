@@ -344,7 +344,7 @@
 	display: block;
 	margin-top: -10px;
 	width:750px;
-    height:10px;
+    	height:10px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
@@ -490,6 +490,7 @@
 .ram1{
 	margin-top: -20px;
 	width: 900px;
+	padding-top: 50px;
 	padding-left: 8%;  
 }
 
