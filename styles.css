@@ -127,7 +127,7 @@
 	margin-top: -100px;
 	white-space: nowrap;
 	width:900px;
-    height:80px;
+    	height:80px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -146,7 +146,7 @@
 .pinkwork {
 	position: relative;
 	width:400px;
-    height:60px;
+    	height:60px;
 	font-family:'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -165,7 +165,7 @@
 .pinkwork2 {
 	position: relative;
 	width:500px;
-    height:60px;
+    	height:60px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -184,7 +184,7 @@
 .smallgreenwork {
 	position: relative;
 	width:500px;
-    height:60px;
+    	height:60px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -208,7 +208,7 @@
 .greentitle {
 	display: block;
 	width:900px;
-    height:45px;
+    	height:45px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: bolder;
 	letter-spacing: 10px;
@@ -221,7 +221,7 @@
 .greenbody {
 	display: block;
 	width:450px;
-    height:20px;
+    	height:20px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
@@ -232,7 +232,7 @@
 .greensmallerbody {
 	display: block;
 	width:900px;
-    height:10px;
+    	height:10px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
@@ -243,8 +243,8 @@
 .captions {
 	display: block;
 	width:900px;
-    height:10px;
-    padding-left: 100px;
+    	height:10px;
+    	padding-left: 8%;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 11px;
@@ -280,7 +280,7 @@
 .ecsgreentitle{
 	display: block;
 	width:900px;
-    height:45px;
+    	height:45px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: bolder;
 	letter-spacing: 10px;
@@ -310,7 +310,7 @@
 	display: block;
 	margin-top: -45px;
 	width:550px;
-    height:30px;
+    	height:30px;
 	font-family: 'Ruda', sans-serif;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -322,7 +322,7 @@
 	margin-top: -8px;
 	text-transform: uppercase;
 	width:600px;
-    height:10px;
+    	height:10px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
@@ -333,7 +333,7 @@
 	display: block;
 	margin-top: -10px;
 	width:900px;
-    height:10px;
+    	height:10px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
