@@ -199,7 +199,6 @@
 }
 
 .greentitle {
-	margin-left: -10px;
 	display: inline-block;
 	width: 400px;
     	height: 9px;
@@ -213,7 +212,6 @@
 }
 
 .greenbody {
-	margin-left: -10px;
 	display: inline-block;
 	width: 300px;
     	height:3px;
@@ -225,7 +223,6 @@
 }
 
 .greensmallerbody {
-	margin-left: -10px;
 	display: inline-block;
 	width:300px;
     	height:3px;
@@ -236,11 +233,9 @@
 }
 
 .captions {
-	margin-left: -10px;
 	display: block;
 	width:300px;
     	height:10px;
-    	padding-left: 2px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: normal;
 	font-size: 10px;
@@ -274,7 +269,6 @@
 }
 
 .ecsgreentitle{
-	margin-left: -10px;
 	display: block;
 	width:300px;
     	height:15px;
@@ -288,14 +282,12 @@
 }
 
 .ecsimage1 {
-	margin-left: -10px;
 	width: 300px;
 	padding-left: 2px;
 	padding-top: 400px;
 }
 
 .ecsimage2 {
-	margin-left: -10px;
 	width: 300px;
 	padding-left: 2px;
 	padding-top: 10px;
