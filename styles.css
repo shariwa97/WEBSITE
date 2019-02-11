@@ -533,7 +533,7 @@
 
 .infoimage{
 	width: 400px;
-	padding-left: 20%;
+	padding-left: 200px;
 	position: relative;
 	z-index: -2;
 }
@@ -544,7 +544,7 @@
 	position: absolute;
 	text-shadow: 2px 2px 3px #ABDB25;
 	width:450px;
-    height:30px;
+    	height:30px;
 	font-family: 'Ruda', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
