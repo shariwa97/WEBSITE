@@ -12,7 +12,7 @@
     top: 380px;
     left: 20px;
     margin-right: -550px;
-    transform: translate(-160px, -406px);
+    transform: translate(-120px, -406px);
 	font-family: 'Staatliches', cursive;
 	font-weight: normal;
 	font-size: 20px;
@@ -34,7 +34,7 @@
     top: 406px;
     left: 190px;
     margin-right: -225px;
-    transform: translate(-150px, -406px);
+    transform: translate(-100px, -406px);
 	font-family: 'Staatliches', cursive;
 	font-weight: normal;
 	font-size: 20px;
@@ -579,6 +579,73 @@
 
 .highlighter{
 	background-color: #ABDB25;
+}
+
+
+.cuffhlink{
+	width:100px;
+    	height:100px;
+    	font-weight: bold;
+	font-family:'Ruda', sans-serif;
+	font-size: 12px;
+	color: #ABDB25;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: help;
+}
+
+.cuffh{
+	width: 200px;
+	padding-left: 1%;
+	padding-top: 10px;
+}
+
+.cuffh1{
+	width: 200px;
+	padding-left: 1%;
+	padding-top: 10px;
+}
+
+.cuffhbody {
+	display: block;
+	padding-left: 1%;
+	width:200px;
+    	height:30px;
+	font-family: 'Ruda', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	color:  #ABDB25;
+}
+
+.cuffhbody1 {
+	display: block;
+	margin-top: -15px;
+	width:200px;
+    	height:30px;
+	font-family: 'Ruda', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 16px;
+	color:  #ABDB25;
+}
+
+.cuffhbody2 {
+	display: block;
+	margin-top: -2px;
+	text-transform: uppercase;
+	width:200px;
+    	height:30px;
+	font-family: 'Ruda', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #08199C;
+}
+
+.poster{
+	height: 200px;
+	padding-left: 1%;
 }
 
 
