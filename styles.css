@@ -24,6 +24,8 @@
 	cursor: help;
 	color: #F3F8F3;
 	text-shadow: -50px -50px 60px #08199C;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #ABDB25;
 	text-decoration: none;
 	letter-spacing: 70px;	
 }
@@ -46,6 +48,9 @@
 	cursor: help;
 	color: #F3F8F3;
 	text-shadow: 80px 80px 50px #ABDB25;
+	-webkit-text-stroke-width: 1000px;
+	-webkit-text-stroke-color: #FFCFD2;
+	z-index: -2;
 	text-decoration: none;
 	letter-spacing: 70px;	
 }
