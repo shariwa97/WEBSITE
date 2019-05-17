@@ -1,12 +1,9 @@
-
-
-#homepage{
-	background-color: #f5f5f5;
+#homepge {
+	background-color: #ffa500;
 }
 
 #title {
 	background-color: #f5f5f5;
-
 }
 
 .titletext1 {
@@ -115,15 +112,121 @@
 	text-shadow: 5px 5px 50px #08199C;
 }
 
+.element1{
+	font-family: 'Staatliches', monospace;
+	position: absolute;
+	z-index: -2;
+	font-size: 1100%;
+	letter-spacing: 20px;
+	text-align: left;
+	color: #ffffff;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #08199C;
+   -webkit-animation: flickerAnimation 5s infinite;
+}
+
+.element2{
+	font-family: 'Staatliches', monospace;
+	position: absolute;
+	z-index: -2;
+	padding-top: 375px;
+	padding-left: 200px;
+	letter-spacing: 20px;
+	font-size: 500%;
+	color: #ffffff;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #08199C;
+   -webkit-animation: flickerAnimation 3s infinite;
+}
+
+.element3{
+	font-family: 'Staatliches', monospace;
+	position: absolute;
+	z-index: -2;
+	padding-top: 500px;
+	padding-left: 700px;
+	letter-spacing: 20px;
+	font-size: 600%;
+	color: #ffffff;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #08199C;
+   	-webkit-animation: flickerAnimation 4s infinite;
+}
+
+.element4{
+	font-family: 'Staatliches', monospace;
+	position: absolute;
+	z-index: -2;
+	padding-top: 700px;
+	padding-left: 300px;
+	letter-spacing: 20px;
+	font-size: 900%;
+	color: #ffffff;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #08199C;
+   -webkit-animation: flickerAnimation 2s infinite;
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:0.5;}
+  50%  { opacity:0.05;}
+  100% { opacity:0.8;}
+}
+
 
 .list-group {
   	list-style-type: none;
   	margin-top: -75px;
   	padding-top: 50px;
-  	padding-left: 8%;
+  	padding-right: 8%;
+  	text-align: right;
 }
 
-.greenwork {
+.list-group2 {
+  	list-style-type: none;
+  	margin-top: -75px;
+  	padding-top: 50px;
+  	padding-left: 8%;
+  	text-align: left;
+}
+
+.list-group3 {
+  	list-style-type: none;
+  	margin-top: -75px;
+  	padding-top: 50px;
+  	padding-right: 8%;
+  	text-align: right;
+}
+
+.list-group4 {
+  	list-style-type: none;
+  	margin-top: -75px;
+  	padding-top: 50px;
+  	padding-left: 8%;
+  	text-align: left;
+}
+
+.greenwork1 {
+	width:900px;
+    	height:80px;
+	font-family: 'Staatliches', cursive;
+	font-size: 40px;
+	color: #ABDB25;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+}
+
+.greenwork1:hover {
+	cursor: help;
+	color: #ffffff;
+	text-shadow: 80px 80px 10px #08199C;
+	text-decoration: none;	
+
+}
+
+.greenwork2 {
 	margin-top: -100px;
 	white-space: nowrap;
 	width:900px;
@@ -136,36 +239,18 @@
 	letter-spacing: 15px;
 }
 
-.greenwork:hover {
+.greenwork2:hover {
 	cursor: help;
-	color: #e6e6e6;
+	color: #ffffff;
 	text-shadow: 80px 80px 10px #08199C;
 	text-decoration: none;	
 }
 
-.pinkwork {
-	position: relative;
-	width:400px;
-    	height:60px;
-	font-family:'Staatliches', cursive;
-	font-size: 40px;
-	color: #ABDB25;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 15px;
-}
-
-.pinkwork:hover {
-	cursor: help;
-	color: #e6e6e6;
-	text-shadow: 80px 80px 10px #08199C;
-	text-decoration: none;	
-}
-
-.pinkwork2 {
-	position: relative;
-	width:500px;
-    	height:60px;
+.greenwork3 {
+	margin-top: -100px;
+	white-space: nowrap;
+	width:900px;
+    	height:80px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -174,17 +259,18 @@
 	letter-spacing: 15px;
 }
 
-.pinkwork2:hover {
+.greenwork3:hover {
 	cursor: help;
-	color: #e6e6e6;
+	color: #ffffff;
 	text-shadow: 80px 80px 10px #08199C;
 	text-decoration: none;	
 }
 
-.smallgreenwork {
-	position: relative;
-	width:500px;
-    	height:60px;
+.greenwork4 {
+	margin-top: -100px;
+	white-space: nowrap;
+	width:900px;
+    	height:80px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -193,50 +279,11 @@
 	letter-spacing: 15px;
 }
 
-.smallgreenwork:hover {
+.greenwork4:hover {
 	cursor: help;
-	color: #e6e6e6;
+	color: #ffffff;
 	text-shadow: 80px 80px 10px #08199C;
 	text-decoration: none;	
-}
-
-#judd {
-	height: 7850px;
-	background-color: white;
-}
-
-.greentitle {
-	display: block;
-	width:900px;
-    	height:45px;
-	font-family: 'Ruda', sans-serif;
-	font-weight: bolder;
-	letter-spacing: 10px;
-	font-size: 40px;
-	color: #08199C;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.greenbody {
-	display: block;
-	width:450px;
-    	height:20px;
-	font-family: 'Ruda', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #ABDB25;
-}
-
-.greensmallerbody {
-	display: block;
-	width:900px;
-    	height:10px;
-	font-family: 'Ruda', sans-serif;
-	font-weight: normal;
-	font-size: 12px;
-	color: #08199C;
 }
 
 
