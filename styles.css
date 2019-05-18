@@ -134,7 +134,7 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	padding-top: 375px;
+	padding-top: 400px;
 	padding-left: 200px;
 	letter-spacing: 20px;
 	font-size: 500%;
@@ -148,10 +148,10 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	padding-top: 500px;
+	padding-top: 550px;
 	padding-left: 700px;
 	letter-spacing: 20px;
-	font-size: 600%;
+	font-size: 400%;
 	color: #ffffff;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: #08199C;
@@ -181,12 +181,14 @@
 
 
 .list-group {
+	position: static;
   	list-style-type: none;
   	margin-top: -75px;
   	padding-top: 50px;
   	padding-right: 8%;
-  	text-align: right;
+  	text-align: right; 	
 }
+
 
 .list-group2 {
   	list-style-type: none;
@@ -212,9 +214,10 @@
   	text-align: left;
 }
 
+
 .greenwork1 {
 	width:900px;
-    	height:80px;
+    height:80px;
 	font-family: 'Staatliches', cursive;
 	font-size: 40px;
 	color: #ABDB25;
@@ -223,12 +226,50 @@
 	letter-spacing: 15px;
 }
 
-.greenwork1:hover {
-	cursor: help;
+.greenwork1:hover{
 	color: #ffffff;
 	text-shadow: 80px 80px 10px #08199C;
-	text-decoration: none;	
+	text-decoration: none;
+}
 
+#untitled:hover{
+	cursor: url(https://i.imgur.com/MXOWA5I.gif), auto;
+}
+
+#ecs:hover{
+	cursor: url(https://i.imgur.com/odqs8lI.gif), auto;
+}
+
+#eat:hover{
+	cursor: url(https://i.imgur.com/zy1AH2W.gif), auto;
+}
+
+#eco:hover{
+	cursor: url(https://i.imgur.com/8vVCyGn.gif), auto;
+}
+
+#ma:hover{
+	cursor: url(https://i.imgur.com/tddBAju.gif), auto;
+}
+
+#nmc:hover{
+	cursor: url(https://i.imgur.com/3WgWPHU.gif), auto;
+}
+
+#hoop:hover{
+	cursor: url(https://i.imgur.com/UBuxkge.gif), auto;
+}
+
+#textiles:hover{
+	cursor: url(https://i.imgur.com/pn42X8r.gif), auto;
+}
+
+#chino:hover{
+	cursor: url(https://i.imgur.com/Lh3T8VP.gif), auto;
+}
+
+#cuffh:hover{
+	cursor: url(https://i.imgur.com/slgoefB.gif), auto;
 }
 
 .greenwork2 {
