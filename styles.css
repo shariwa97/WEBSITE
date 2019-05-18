@@ -48,12 +48,12 @@
 	cursor: help;
 	color: #F3F8F3;
 	text-shadow: 80px 80px 50px #ABDB25;
-	-webkit-text-stroke-width: 1000px;
-	-webkit-text-stroke-color: #FFCFD2;
-	z-index: -2;
 	text-decoration: none;
 	letter-spacing: 70px;	
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #08199C;
 }
+
 
 
 .homelink{
