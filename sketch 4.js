@@ -30,7 +30,7 @@ var canvas
 
 function setup(){
   canvas = createCanvas(500, 600);
-  canvas.position(102,190);
+  canvas.position((windowWidth-width)/2,375);
   canvas.style('z-index', '-1');
   canvas.style('display', 'block');
 
