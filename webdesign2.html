@@ -5,6 +5,7 @@
 	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
 	<link rel="stylesheet" media="only screen and (max-width: 450px)" href="smallestscreen.css" >
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
+	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>cuffh ui design</title>
 </head>
 <script src="myscripts.js"></script>
@@ -13,7 +14,7 @@
 <body id="webdesign">
 
 	<div class="home">
-		<div> <a class="homelink" href="index.html" style="float: left"> 
+		<div> <a class="homelink" href="content.html" style="float: left"> 
 					shariwa
 					</a></div>
 		<div> <a class="resumelink" href="resume.pdf" type="application/pdf" target="_blank" style="float: right">  
@@ -24,54 +25,67 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
+	<br><br><br>
 
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				cuffh ui design
-			</li>
-			<br><br>
-			<li class= "cuffhbody1">
-				freelance design for churches united for fair housing (summer 2018 - spring 2019)
-			</li>
-			<li class= "cuffhbody2" >
-				creating a new ui design for the churches united for fair housing (cuffh) so that it can be more interactive and informative to those using the website for their needs. 
-				to see more please visit <a class="cuffhlink" href=https://www.cuffh.org target="_blank">cuffh.org </a>
-			</li>
-		</ul>
-
-		<img class="cuffh1" src="https://i.imgur.com/WW8Y39c.png" alt="plans">
-		<img class="cuffh1" src="https://i.imgur.com/GtQvVQ4.png" alt="plans">
-		<img class="cuffh1" src="https://i.imgur.com/kC0HwzS.jpg" alt="plans">
-
+		<div class= "title">
+			cuffh ui design
+		</div>
+		<div class= "subtitle">
+			freelance design for churches united for fair housing (summer 2018 - spring 2019)
+		</div>
+		<br>
+		<div class= "body" >
+			creating a new ui design for the churches united for fair housing (cuffh) so that it can be more interactive and informative to those using the website for their needs. 
+			to see more please visit <a class="cuffhlink" href=https://www.cuffh.org target="_blank">cuffh.org </a>
+		</div>
 		<br><br>
-		<div class= "cuffhbody">
-				final website
-			</div>
-
-		
-		<img class="cuffh" src="https://i.imgur.com/9CbC6OD.gif" alt="plans">
-		<img class="cuffh" src="https://i.imgur.com/P3pkElU.gif" alt="plans">
-		<img class="cuffh" src="https://i.imgur.com/ZbEDttl.gif" alt="plans">
-		<img class="cuffh" src="https://i.imgur.com/TUUm4mT.gif" alt="plans">
-		<img class="cuffh" src="https://i.imgur.com/TpkuAmW.gif" alt="plans">
-
+			<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/WW8Y39c.png" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/GtQvVQ4.png" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/kC0HwzS.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/9CbC6OD.gif" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/P3pkElU.gif" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/ZbEDttl.gif" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/TUUm4mT.gif" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/TpkuAmW.gif" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/EOE5apb.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/MztlRgH.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/brhNEcI.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/BOR3QJ2.jpg" style="width:50%">
+		</div>
+		<br>
+		<div>
+			<button class="left" onclick="plusDivs(-1)"></button>
+			<button class="right" onclick="plusDivs(1)"></button>
+		</div>
 		<br><br>
-		<div class= "cuffhbody" >
-				brand guidelines
-			</div>
-
-		<img class="cuffh1" src="https://i.imgur.com/EOE5apb.jpg" alt="plans">
-		<img class="cuffh1" src="https://i.imgur.com/MztlRgH.jpg" alt="plans">
-		<img class="cuffh1" src="https://i.imgur.com/brhNEcI.jpg" alt="plans">
-		<img class="cuffh1" src="https://i.imgur.com/BOR3QJ2.jpg" alt="plans">
-
-		<div class= "captionslarger">
 
 	</div>
 
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 </body>
 </html>
