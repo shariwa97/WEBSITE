@@ -13,9 +13,9 @@ var placeYHr = [50,75,121,150,176,200,253,300,350,375,450,473,500,550,600,675,69
 
 function setup(){
   canvas = createCanvas(480,480);  
-  canvas.position(105,190);
+  canvas.position((windowWidth-width)/2, 250);
   canvas.style('z-index','-1')
-  canvas.style('display','inline-block')
+  canvas.style('display','block')
 }
 
 function draw(){
