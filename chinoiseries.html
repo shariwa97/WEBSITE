@@ -24,38 +24,61 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
-
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				chinoiseries
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				part of the student run lunar gala || spring 2018
-			</li>
-			<li class= "greenbodyeat2">
-				in collaboration with fon kornrat euchukanonchai and gunn chaiyapatranun
-			</li>
-		</ul>
-
+	<br><br><br>
+ 
+		<div class= "title">
+			chinoiseries
+		</div>
+		<div class= "subtitle">
+			part of the student run lunar gala || spring 2018
+		</div>
+		<div class= "subtitle">
+			in collaboration with fon kornrat euchukanonchai and gunn chaiyapatranun
+		</div>
 		<br>
-
-		<img class="chin1" src="https://i.imgur.com/ioNJHK1.gif" alt="plans">
-
-
-		<br> <br>
-		<img class="chin1" src="https://i.imgur.com/ma0znVz.jpg" alt="plans">
-
-		
-
-
-
-
+	<div class="w3-content w3-display-container">
+		<img class="mySlides" src="https://imgur.com/ndGHCOv.gif" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/GX2Y6be.gif" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/eUSWmBO.gif" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/rnvF883.gif" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/kcVF54a.gif" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/iv2dScI.png" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/uKyQKPQ.jpg" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/PZ8AokJ.jpg" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/TJaVWxT.jpg" style="width:50%">
+		<img class="mySlides" src="https://imgur.com/9l0hJvE.jpg" style="width:50%">
 	</div>
-
+	<br>
+	<div>
+		<button class="left" onclick="plusDivs(-1)"></button>
+		<button class="right" onclick="plusDivs(1)"></button>
+	</div>
+	<br><br>
+	</div>
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 </body>
 </html>
