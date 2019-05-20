@@ -32,7 +32,7 @@ var moveX9 = 0.5
 
 function setup(){
   canvas = createCanvas(480, 480);
-  canvas.position(105,190);
+  canvas.position((windowWidth-width)/2,350);
   canvas.style('z-index', '-1');
   canvas.style('display', 'block');
   angleMode(DEGREES);
