@@ -3,8 +3,9 @@
 <head>
 	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
 	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 450px)" href="smallestscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-width: 500px)" href="smallestscreen.css" >
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
+	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>ramayana</title>
 </head>
 <script src="myscripts.js"></script>
@@ -16,7 +17,7 @@
 		<div> <a class="homelink" href="content.html" style="float: left"> 
 					shariwa
 					</a></div>
-		<div> <a class="resumelink" href="resume.pdf" type="application/pdf" target="_blank" style="float: right">
+		<div> <a class="resumelink" href="resume.pdf" type="application/pdf" target="_blank" style="float: right"> 
 					resume
 					</a> </div>
 		<div> <a class="infolink" href="info.html" style="float: right"> 
@@ -24,32 +25,56 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
-
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				ramayana
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				7 layer screenprint on cardstock, 12"x19" || may 2018
-			</li>
-			<br>
-			<li class= "greensmallerbodyram">
-				a poster inspired by the famous hindu epic, ramayana about the exile of ram, laxman, and sita and the events that follow. this was done as part of my print making class and is part of a series dedicated to the modern interpretations of indian myths.
-			</li>
-		</ul>
-		<br> 
-
-		<img class="ram1" src="https://i.imgur.com/tWzYLBZ.jpg" alt="plans">
-
-
-
-
+	<br><br><br>
+ 
+		<div class= "title">
+			ramayana
+		</div>
+		<div class= "subtitle">
+			7 layer screenprint on cardstock, 12"x19" || may 2018
+		</div>
+		<br>
+		<div class= "body">
+			a poster inspired by the famous hindu epic, ramayana about the exile of ram, laxman, and sita and the events that follow. this was done as part of my print making class and is part of a series dedicated to the modern interpretations of indian myths.
+		</div>
+		<br>
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://imgur.com/sGB8BzX.png" style="width:80%">
+			<img class="mySlides" src="https://imgur.com/CA39xYp.png" style="width:80%">
+			<img class="mySlides" src="https://imgur.com/fc0Z7jz.png" style="width:40%">
+			<img class="mySlides" src="https://imgur.com/T68L2vM.png" style="width:40%">
+		</div>
+		<br>
+		<div>
+			<button class="left" onclick="plusDivs(-1)"></button>
+			<button class="right" onclick="plusDivs(1)"></button>
+		</div>
+		<br><br>
 	</div>
-
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 
 </body>
 </html>
