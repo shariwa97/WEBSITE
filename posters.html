@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" media="only screen and (max-width: 1680px)" href="styles.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 786px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="smallestscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
+	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-width: 500px)" href="smallestscreen.css" >
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
-	<title>poster</title>
+	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
+	<title>posters</title>
 </head>
 <script src="myscripts.js"></script>
 
 
-<body id="poster">
+<body id="posterpage">
 
 	<div class="home">
 		<div> <a class="homelink" href="content.html" style="float: left"> 
@@ -24,54 +25,52 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
-	
-
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				poster design
-			</li>
-			<br><br>
-			<li class= "greenbody" style="margin-top: -30px;">	
-			these posters were created off of a various set of prompts given by a school club. out of these only 1 of the designs were used. the other ones were just made by me for me :)
-			</li>
-		</ul>
-
-		<br>
-
-		<div class= "captionslarger">
-			diwali
+	<br><br><br>
+ 
+		<div class= "title">
+			posters
+		</div>
+		<div class= "subtitle">
+			created off of a various set of prompts given by a school club. mainly made for me by me :)
 		</div>
 		<br>
-		<img class="poster" src="https://i.imgur.com/PvkO8U8.png" alt="plans">
-
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/PvkO8U8.png" style="width:35%">
+			<img class="mySlides" src="https://i.imgur.com/q62Fpu2.jpg" style="width:35%">
+			<img class="mySlides" src="https://i.imgur.com/t8wFJMN.png" style="width:35%">
+			<img class="mySlides" src="https://i.imgur.com/GYUGAhG.png" style="width:35%">
+		</div>
+		<br>
+		<div>
+			<button class="left" onclick="plusDivs(-1)"></button>
+			<button class="right" onclick="plusDivs(1)"></button>
+		</div>
 		<br><br>
-
-		<div class= "captionslarger">
-			night at the oscars
-		</div>
-
-		<br>
-		<img class="poster" src="https://i.imgur.com/q62Fpu2.jpg" alt="concept1" >
-		<br><br>
-
-		<div class= "captionslarger">
-			barbeque
-		</div>
-		<br>
-		<img class="poster" src="https://i.imgur.com/t8wFJMN.png" alt="plans" >
-		<br><br>
-
-		<div class= "captionslarger">
-			after party
-		</div>
-		<br>
-		<img class="poster" src="https://i.imgur.com/GYUGAhG.png" alt="plans" >
-
 	</div>
-
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 
 </body>
 </html>
