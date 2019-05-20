@@ -8,16 +8,15 @@
 
 .titletext1 {
 	position: absolute;
-    top: 30%;
-    left: 20%;
-    margin-right: -50%;
+    top: 40vh;
+    left: 20vw;
     transform: translate(-20%, -50%);
 	font-family: 'Staatliches', cursive;
 	font-weight: normal;
-	font-size: 100px;
+	font-size: 7vw;
 	color: #ABDB25;
 	text-decoration: none;
-	letter-spacing: 100px;
+	letter-spacing: 7vw;
 }
 
 .titletext1:hover {
@@ -33,16 +32,15 @@
 
 .titletext2{
 	position: absolute;
-    top: 40%;
-    left: 39%;
-    margin-right: -50%;
+    top: 50vh;
+    left: 40vw;
     transform: translate(-40%, -50%);
 	font-family: 'Staatliches', cursive;
 	font-weight: normal;
-	font-size: 100px;
+	font-size: 7vw;
 	color: #08199C;
 	text-decoration: none;
-	letter-spacing: 100px;
+	letter-spacing: 7vw;
 }
 
 .titletext2:hover {
@@ -61,23 +59,31 @@
 	padding-left: 8%;
 	font-family: 'Staatliches', monospace;
 	text-align: justify;
-	font-size: 40px;
+	font-size: 3.75vw;
 	color: #ABDB25;
+	-webkit-text-stroke-width: 0.075vw;
+	-webkit-text-stroke-color: #08199C;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 1vw;
 }	
 
 .homelink:hover {
-	letter-spacing: 100px;
+	-webkit-text-stroke-width: 0.4vh;
+	-webkit-text-stroke-color: #ABDB25;
+	text-decoration-style: wavy;
+	text-decoration-color: #ABDB25;
+	text-decoration-line: overline underline;
+	letter-spacing: 6vw;
 	color:#08199C;
-	font-size: 300px;
+	font-size: 20vw;
 	text-shadow: 5px 5px 50px #08199C;
 	writing-mode: vertical-lr;
 	cursor: url(https://i.imgur.com/3C48NKY.png), auto;
 }
 
 .homelink::selection {
+
 	color: #ffffff;
     background-color: #08199C;
 }
@@ -86,19 +92,26 @@
 .resumelink{
 	display: inline-block;
 	font-family: 'Staatliches', monospace;
-	font-size: 40px;
+	font-size: 3.75vw;
 	padding-right: 8%;
 	color: #ABDB25;
+	-webkit-text-stroke-width: 0.075vw;
+	-webkit-text-stroke-color: #08199C;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 1vw;
 }
 
 .resumelink:hover {
-	letter-spacing: 100px;
+	-webkit-text-stroke-width: 0.4vh;
+	-webkit-text-stroke-color: #ABDB25;
+	text-decoration-style: wavy;
+	text-decoration-color: #ABDB25;
+	text-decoration-line: overline underline;
+	letter-spacing: 6vw;
 	writing-mode: vertical-lr;
 	color: #08199C;
-	font-size: 300px;
+	font-size: 20vw;
 	text-shadow: 5px 5px 50px #08199C;
 	cursor: url(https://i.imgur.com/3C48NKY.png), auto;
 }
@@ -112,20 +125,27 @@
 .infolink{
 	display: inline-block;
 	font-family: 'Staatliches', monospace;
-	font-size: 40px;
+	font-size: 3.75vw;
 	padding-right: 4%;
+	-webkit-text-stroke-width: 0.075vw;
+	-webkit-text-stroke-color: #08199C;
 	text-align: right;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 1vw;
 }
 
 .infolink:hover {
-	letter-spacing: 100px;
+	-webkit-text-stroke-width: 0.4vh;
+	-webkit-text-stroke-color: #ABDB25;
+	text-decoration-style: wavy;
+	text-decoration-color: #ABDB25;
+	text-decoration-line: overline underline;
+	letter-spacing: 6vw;
 	writing-mode: vertical-rl;
 	color:#08199C;
-	font-size: 300px;
+	font-size: 20vw;
 	text-shadow: 5px 5px 50px #08199C;
 	cursor: url(https://i.imgur.com/3C48NKY.png), auto;
 }
@@ -139,11 +159,12 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	font-size: 1100%;
-	letter-spacing: 20px;
+	padding-top: 10vw;
+	font-size: 10vw;
+	letter-spacing: 4vw;
 	text-align: left;
 	color: #ffffff;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 0.3vw;
 	-webkit-text-stroke-color: #08199C;
    -webkit-animation: flickerAnimation 5s infinite;
 }
@@ -152,12 +173,12 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	padding-top: 360px;
-	padding-left: 200px;
-	letter-spacing: 20px;
-	font-size: 500%;
+	padding-top: 50vh;
+	padding-left: 5vw;
+	letter-spacing: 2vw;
+	font-size: 7vw;
 	color: #ffffff;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 0.1vw;
 	-webkit-text-stroke-color: #08199C;
    -webkit-animation: flickerAnimation 3s infinite;
 }
@@ -166,12 +187,12 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	padding-top: 500px;
-	padding-left: 700px;
-	letter-spacing: 20px;
-	font-size: 400%;
+	padding-top: 75vh;
+	padding-left: 55vw;
+	letter-spacing: 2vw;
+	font-size: 5vw;
 	color: #ffffff;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 0.2vw;
 	-webkit-text-stroke-color: #08199C;
    	-webkit-animation: flickerAnimation 4s infinite;
 }
@@ -180,12 +201,12 @@
 	font-family: 'Staatliches', monospace;
 	position: absolute;
 	z-index: -2;
-	padding-top: 680px;
-	padding-left: 300px;
-	letter-spacing: 20px;
-	font-size: 900%;
+	padding-top: 110vh;
+	padding-left: 20vw;
+	letter-spacing: 10px;
+	font-size: 12vw;
 	color: #ffffff;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 0.2vw;
 	-webkit-text-stroke-color: #08199C;
    -webkit-animation: flickerAnimation 2s infinite;
 }
@@ -201,8 +222,6 @@
 .list-group {
 	position: static;
   	list-style-type: none;
-  	margin-top: -75px;
-  	padding-top: 50px;
   	padding-right: 8%;
   	text-align: right; 	
 }
@@ -210,24 +229,18 @@
 
 .list-group2 {
   	list-style-type: none;
-  	margin-top: -75px;
-  	padding-top: 50px;
   	padding-left: 8%;
   	text-align: left;
 }
 
 .list-group3 {
   	list-style-type: none;
-  	margin-top: -75px;
-  	padding-top: 50px;
   	padding-right: 8%;
   	text-align: right;
 }
 
 .list-group4 {
   	list-style-type: none;
-  	margin-top: -75px;
-  	padding-top: 50px;
   	padding-left: 8%;
   	text-align: left;
 }
@@ -237,11 +250,11 @@
 	width:900px;
     height:80px;
 	font-family: 'Staatliches', cursive;
-	font-size: 40px;
+	font-size: 2.75vw;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 15px;
+	letter-spacing: 0.95vw;
 }
 
 .greenwork1:hover{
@@ -326,17 +339,21 @@
 	cursor: url(https://imgur.com/8sdN16a.gif), auto;
 }
 
+#infopage:hover{
+	cursor: url(https://i.imgur.com/3C48NKY.png), auto;
+}
+
 .greenwork2 {
 	margin-top: -100px;
 	white-space: nowrap;
 	width:900px;
-    	height:80px;
+    height:80px;
 	font-family: 'Staatliches', cursive;
-	font-size: 40px;
+	font-size: 2.75vw;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 15px;
+	letter-spacing: 0.95vw;
 }
 
 .greenwork2:hover {
@@ -352,11 +369,11 @@
 	width:900px;
     	height:80px;
 	font-family: 'Staatliches', cursive;
-	font-size: 40px;
+	font-size: 2.75vw;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 15px;
+	letter-spacing: 0.95vw;
 }
 
 .greenwork3:hover {
@@ -372,11 +389,11 @@
 	width:900px;
     	height:80px;
 	font-family: 'Staatliches', cursive;
-	font-size: 40px;
+	font-size: 2.75vw;
 	color: #ABDB25;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 15px;
+	letter-spacing: 0.95vw;
 }
 
 .greenwork4:hover {
@@ -519,8 +536,6 @@
 	color: #08199C;
 	display: block;
 }
-
-
 
 .infoimage{
 	width: 400px;
