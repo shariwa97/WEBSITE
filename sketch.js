@@ -10,7 +10,7 @@ function setup() {
 function draw() {
   strokeWeight(random(0.5,3));
   noStroke();
-  fill(7,28,189,random(2,7))
+  fill(7,28,189,random(0,4))
   rect(mouseX,mouseY,random(1,900),random(1,40),20);
 }
 
