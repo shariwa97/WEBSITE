@@ -23,28 +23,56 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				textile design
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				ongoing
-			</li>
-			<li class= "greenbodyeat2">
-				self taught
-			</li>
-		</ul>
-
-		<br>
-
-		<img class="textile1" src="https://i.imgur.com/Tnbr3Z8.jpg" alt="plans">
-		
+	<br><br><br>
+	<div class= "title">
+		textile design
 	</div>
+	<div class= "subtitle">
+		ongoing || self-taught
+	</div>
+	<br>
+	<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/NzLZ9Fn.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/ea8HGHx.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/NkAc9DS.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/AGeeI6d.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/TOt8DPS.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/VSQOezC.png" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/YdqVIK8.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/HLeW9pS.jpg" style="width:50%">
+			<img class="mySlides" src="https://i.imgur.com/AVPpFnN.jpg" style="width:50%">
+	</div>
+	<br>
+	<div>
+		<button class="left" onclick="plusDivs(-1)"></button>
+		<button class="right" onclick="plusDivs(1)"></button>
+	</div>
+	<br><br>
 
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 </body>
 </html>
