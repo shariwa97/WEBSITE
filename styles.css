@@ -543,6 +543,11 @@
 	display: block;
 }
 
+.infobig::selection {
+	color: #ffffff;
+    background-color: #08199C;
+}
+
 .infosmall{
 	display: block;
 	position: absolute;
@@ -557,12 +562,23 @@
 	display: block;
 }
 
+.infosmall::selection {
+	color: #ffffff;
+    background-color: #ABDB25;
+    text-shadow: 1px 1px 2px #08199C;
+}
+
 .highlighter{
 	background-color: #ABDB25;
 	font-family: 'Ruda', sans-serif;
 	margin-left: 8%;
 	font-size: 19px;
 	color: #08199C;
+}
+
+.highlighter::selection{
+	background-color: #08199C;
+	color: #ABDB25;
 }
 
 .highlighter2{
@@ -572,6 +588,10 @@
 	color: #08199C;
 }
 
+.highlighter2::selection{
+	background-color: #08199C;
+	color: #ffffff;
+}
 
 .cuffhlink{
 	width:400px;
