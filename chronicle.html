@@ -3,14 +3,15 @@
 <head>
 	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
 	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 450px)" href="smallestscreen.css" >
-	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" media="only screen and (max-width: 500px)" href="smallestscreen.css" >
+	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
+	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>chronicle</title>
 </head>
 <script src="myscripts.js"></script>
 
 
-<body id="chronicle">
+<body id="ramayana">
 
 	<div class="home">
 		<div> <a class="homelink" href="content.html" style="float: left"> 
@@ -24,54 +25,67 @@
 					</a></div>
 	</div>
 
-	<br><br><br><br><br>
+	<br><br><br>
+ 
+		<div class= "title">
+			ramayana
+		</div>
+		<div class= "subtitle">
+			glue bound, inkjet printed, 12" x 9" || spring 2018
+		</div>
+		<div class= "subtitle">
+			done as part of the class: ethics and practice under professor john folan
+		</div>
+		<br>
+		<div class= "body">
+			book that contains an exploration of my possible personal aspirations, my architectural design process, an understanding of the architectural design process in the real world, and analysing whether or not architectural design is interpreted in the way that designers envisioned them.
+		</div>
+		<br>
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/bKRmg65.gif" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/JgQRsPB.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/MPqqked.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/q3DaosL.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/HXaYaGL.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/QwIMTBX.gif" style="width:60%">
 
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				chronicle
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				glue bound, inkjet printed, 12" x 9" || spring 2018
-			</li>
-			<li class= "greenbodyeat2">
-				done as part of the class: ethics and practice under professor john folan
-			</li>
-			<br>
-			<li class= "greensmallerbodyeat">	
-			book that contains an exploration of my possible personal aspirations, my architectural design process, an understanding of the architectural design process in the real world, and analysing whether or not architectural design is interpreted in the way that designers envisioned them. 
-			</li>
-		</ul>
+			<img class="mySlides" src="https://imgur.com/DjwBgI0.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/4NjsF6J.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/QpXSO4O.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/ugbpFyp.gif" style="width:60%">
+			<img class="mySlides" src="https://imgur.com/hkDErKb.gif" style="width:60%">
+		</div>
+		<br>
+		<div>
+			<button class="left" onclick="plusDivs(-1)"></button>
+			<button class="right" onclick="plusDivs(1)"></button>
+		</div>
 		<br><br>
-		<img class="chronicle1" src="https://i.imgur.com/bKRmg65.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://i.imgur.com/JgQRsPB.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/MPqqked.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/q3DaosL.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/HXaYaGL.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/QwIMTBX.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/DjwBgI0.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/4NjsF6J.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/QpXSO4O.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/ugbpFyp.gif" alt="plans" >
-		<br><br>
-		<img class="chronicle2" src="https://imgur.com/hkDErKb.gif" alt="plans" >
-		<br><br>
-		
-
 	</div>
-
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 
 </body>
 </html>
