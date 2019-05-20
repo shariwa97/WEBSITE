@@ -25,49 +25,61 @@
 	</div>
 
 	<br><br><br><br><br>
-
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				eat/play trolley	
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				penn ave, garfield, pittsburgh || spring 2018
-			</li>
-			<li class= "greenbodyeat2">
-				in collaboration with Zhi Tao Chen
-			</li>
-			<br><br>
-			<li class= "greensmallerbodyeat">
-				garfield is an up and coming neighbourhood - going from a relatively low income neighbourhood to a neighbourhood at the beginning of change. as part of this change initiative the environmental charter school has been bought into the community. the ecs has an active mission of engaging the community and its students through its attitude to the enviornment. this eat/play trolley acts as an extension of this mission; the ecs acts as the learning vehicle for the community. through it you can learn to compost, learn the relationship between farm, business, and table, and learn about materials and systems. from the transaction area, you learn about businesses and the process of farming; from the pods you learn about the mechanics of a system; and how cheap materials can work when they are used in the right manner.
-				<br><br>
-			</li>
-		</ul>
-
-		<img class="eatimage1" src="https://i.imgur.com/ohP2eZo.png" alt="plans" >
-		<div class= "captions">
-			render
-		</div>
-
-		<img class="eatimage2" src="https://i.imgur.com/qWuTUrt.png" alt="concept1" >
-		<div class= "captions">
-			concept
-		</div>
-
-		<img class="eatimage2" src="https://i.imgur.com/yGOmr1G.png" alt="plans" >
-		<div class= "captions">
-			views 
-		</div>
-
-		<img class="eatimage2" src="https://i.imgur.com/HGFbYSL.png" alt="plans" >
-		<div class= "captions">
-			configuration
-		</div>
-
+ 
+	<div class= "title">
+		eat/play trolley	
 	</div>
-
+	<div class= "subtitle">
+		penn ave, garfield, pittsburgh || spring 2018
+	</div>
+	<div class= "subtitle">
+		in collaboration with Zhi Tao Chen
+	</div>
+	<br><br>
+	<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/SUEnU8D.png" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/1kbXnuM.png" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/fP0ZpbO.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/JuWYHrM.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/9yXyixK.png" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/Br8q8O2.png" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/dMecUTx.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/juTrG6U.jpg" style="width:60%">
+	</div>
+	<br><br>
+		<div>
+			<button class="left" onclick="plusDivs(-1)"></button>
+			<button class="right" onclick="plusDivs(1)"></button>
+	<br><br>
+	<div class= "body">
+		garfield is an up and coming neighbourhood - going from a relatively low income neighbourhood to a neighbourhood at the beginning of change. as part of this change initiative the environmental charter school has been bought into the community. the ecs has an active mission of engaging the community and its students through its attitude to the enviornment. this eat/play trolley acts as an extension of this mission; the ecs acts as the learning vehicle for the community. through it you can learn to compost, learn the relationship between farm, business, and table, and learn about materials and systems. from the transaction area, you learn about businesses and the process of farming; from the pods you learn about the mechanics of a system; and how cheap materials can work when they are used in the right manner.
+	</div>
+	<br><br>
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 </body>
 </html>
