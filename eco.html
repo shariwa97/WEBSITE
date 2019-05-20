@@ -27,49 +27,63 @@
 
 	<br><br><br><br><br>
 
-	<div class="worklistlink">
-		<ul class="list-group" id="projects">  
-			<li class= "greentitle">
-				environmental feedback
-			</li>
-			<br><br>
-			<li class= "greenbodyeat">
-				strip district, pittsburgh || fall 2017
-			</li>
-			<li class= "greenbodyeat2">
-				in collaboration with Aaron Sangwon Lee
-			</li>
-			<br><br>
-			<li class= "greensmallerbodyeat">
-				a studio focused on understanding the impacts of architecture on the environment. this process was used to create a series of living spaces that could engage with the occupant through every facet of its dimensionality. the project used the algae flow to clean up the highly polluted air of pittsburgh while also create a visually stimulating environment along with the use of flood lines, topography, and wind to to harvest energy and passively heat and cool the housing complex.  
-				<br><br>
-				through a series of randomisation grasshopper scripts we were able to produce a base structural frame that made the skeleton of our housing spaces which we then went on to occupy with different living conditions. this worked to create spaces for the outside and the inside to allow for large scale interaction of people.  
-			</li>
-		</ul>
-
-		<img class="ecoimage1" src="https://i.imgur.com/jebJlty.jpg" alt="plans">
-		<div class= "captions">
+		<div class= "title">
+			environmental feedback
 		</div>
-
-		<img class="ecoimage2" src="https://i.imgur.com/0Vy0Oxp.png" alt="concept1">
-		<div class= "captions">
+		<div class= "subtitle">
+			strip district, pittsburgh || fall 2017
 		</div>
-
-		<img class="ecoimage2" src="https://i.imgur.com/cwMJLW8.jpg" alt="plans">
-		<div class= "captions">
+		<div class= "subtitle">
+			in collaboration with Aaron Sangwon Lee
 		</div>
-
-		<img class="ecoimage2" src="https://i.imgur.com/Y1tJJCE.png" alt="plans">
-		<div class= "captions">
+		<br>
+		<div class= "body">
+			a studio focused on understanding the impacts of architecture on the environment. this process was used to create a series of living spaces that could engage with the occupant through every facet of its dimensionality. the project used the algae flow to clean up the highly polluted air of pittsburgh while also create a visually stimulating environment along with the use of flood lines, topography, and wind to to harvest energy and passively heat and cool the housing complex.  
+			through a series of randomisation grasshopper scripts we were able to produce a base structural frame that made the skeleton of our housing spaces which we then went on to occupy with different living conditions. this worked to create spaces for the outside and the inside to allow for large scale interaction of people.  
 		</div>
-
-		<img class="ecoimage2" src="https://i.imgur.com/SUDXYmj.png" alt="plans">
-		<div class= "captions">
-		</div>
-
+		<br><br>
+	<div class="w3-content w3-display-container">
+			<img class="mySlides" src="https://i.imgur.com/3Df2QFE.jpg" style="width:30%">
+			<img class="mySlides" src="https://i.imgur.com/AVKJCes.jpg" style="width:30%">
+			<img class="mySlides" src="https://i.imgur.com/Ko6SRct.jpg" style="width:30%">
+			<img class="mySlides" src="https://i.imgur.com/FVwGDn2.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/H7UowPy.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/aPmTWBn.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/PO7nElJ.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/Ev46FMP.jpg" style="width:60%">
+			<img class="mySlides" src="https://i.imgur.com/BNcF0cz.jpg" style="width:60%">
 	</div>
+	<br><br>
+	<div>
+		<button class="left" onclick="plusDivs(-1)"></button>
+		<button class="right" onclick="plusDivs(1)"></button>
+	</div>
+	<br><br>
 
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+<footer>
+	<div class = footnote> shariwa sharada</div>
+</footer>
 </body>
 </html>
