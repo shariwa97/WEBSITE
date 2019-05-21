@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 450px)" href="smallestscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 6800px)" href="styles.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" href="smallerscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 400px)" href="smallestscreen.css" >
+	
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
 	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>new media center</title>
@@ -38,19 +39,19 @@
 ​	</div>
 	<br>
 	<div class="w3-content w3-display-container">
-			<img class="mySlides" src="https://i.imgur.com/pIGkJ8h.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/AcolAa1.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/X4AiioQ.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/1FtSTv0.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/kDv1uwG.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/tzH4Quv.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/cjOc2bs.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/OCTmXnp.png" style="width:30%">
+			<img class="mySlides4" src="https://i.imgur.com/pIGkJ8h.png" >
+			<img class="mySlides4" src="https://i.imgur.com/AcolAa1.png" >
+			<img class="mySlides4" src="https://i.imgur.com/X4AiioQ.png" >
+			<img class="mySlides4" src="https://i.imgur.com/1FtSTv0.png" >
+			<img class="mySlides4" src="https://i.imgur.com/kDv1uwG.png" >
+			<img class="mySlides4" src="https://i.imgur.com/tzH4Quv.png" >
+			<img class="mySlides4" src="https://i.imgur.com/cjOc2bs.png" >
+			<img class="mySlides4" src="https://i.imgur.com/OCTmXnp.png" >
 	</div>
 	<br>
 	<div>
-		<button class="left" onclick="plusDivs(-1)"></button>
-		<button class="right" onclick="plusDivs(1)"></button>
+		<button class="left4" onclick="plusDivs4(-1)"></button>
+		<button class="right4" onclick="plusDivs4(1)"></button>
 	</div>
 	<br><br>
 	<div class= "body">
@@ -58,16 +59,16 @@
 	</div>
 	<br><br>
 	<div class="w3-content w3-display-container">
-				<img class="mySlides2" src="https://i.imgur.com/ArhNnhK.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/q94PWfv.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/9boHtJk.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/H1CnY0y.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/OfIBapt.jpg" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/iiGGfpQ.jpg" style="width:80%">
-				<img class="mySlides2" src="https://i.imgur.com/pqRLNuR.jpg" style="width:80%">
-				<img class="mySlides2" src="https://i.imgur.com/Xy68ptC.jpg" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/77EpEMs.jpg" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/OYSfghh.jpg" style="width:60%">
+				<img class="mySlides2" src="https://i.imgur.com/ArhNnhK.png" >
+				<img class="mySlides2" src="https://i.imgur.com/q94PWfv.png" >
+				<img class="mySlides2" src="https://i.imgur.com/9boHtJk.png" >
+				<img class="mySlides2" src="https://i.imgur.com/H1CnY0y.png" >
+				<img class="mySlides2" src="https://i.imgur.com/OfIBapt.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/iiGGfpQ.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/pqRLNuR.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/Xy68ptC.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/77EpEMs.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/OYSfghh.jpg" >
 		</div>
 		<br><br>
 		<div>
@@ -82,25 +83,25 @@
 
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex4 = 1;
+showDivs4(slideIndex4);
 
 var slideIndex2 = 1;
 showDivs2(slideIndex2);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs4(n) {
+  showDivs4(slideIndex4 += n);
 }
 
-function showDivs(n) {
+function showDivs4(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName("mySlides4");
+  if (n > x.length) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex4-1].style.display = "block";  
 }
 
 function plusDivs2(n) {
