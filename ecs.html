@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 450px)" href="smallestscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 6800px)" href="styles.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" href="smallerscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 400px)" href="smallestscreen.css" >
+	
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
 	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>environmental charter school</title>
@@ -40,14 +41,14 @@
 	</div>
 	<br><br>
 	<div class="w3-content w3-display-container">
-			<img class="mySlides" src="https://i.imgur.com/yKSotY6.png" style="width:40%">
-			<img class="mySlides" src="https://i.imgur.com/wHii0o8.png" style="width:30%">
-			<img class="mySlides" src="https://i.imgur.com/f4ay6qh.png" style="width:40%">
+			<img class="mySlides4" src="https://i.imgur.com/yKSotY6.png" >
+			<img class="mySlides4" src="https://i.imgur.com/wHii0o8.png" >
+			<img class="mySlides4" src="https://i.imgur.com/f4ay6qh.png">
 	</div>
 	<br><br>
 	<div>
-		<button class="left" onclick="plusDivs(-1)"></button>
-		<button class="right" onclick="plusDivs(1)"></button>
+		<button class="left4" onclick="plusDivs4(-1)"></button>
+		<button class="right4" onclick="plusDivs4(1)"></button>
 	</div>
 	<br><br>
 	<div class= "body">
@@ -55,19 +56,19 @@
 	</div>
 	<br><br>
 	<div class="w3-content w3-display-container">
-				<img class="mySlides2" src="https://i.imgur.com/t2EAsvB.jpg" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/zCJPrZZ.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/osb7Lz9.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/8pmvSJI.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/ANIAAi9.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/fk6vuQY.png" style="width:70%">
-				<img class="mySlides2" src="https://i.imgur.com/38mGAyg.png" style="width:30%">
-				<img class="mySlides2" src="https://i.imgur.com/9aqAk9r.png" style="width:30%">
-				<img class="mySlides2" src="https://i.imgur.com/SCU69Ai.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/NPvWSKY.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/C8ySh5c.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/ToWcOTI.png" style="width:60%">
-				<img class="mySlides2" src="https://i.imgur.com/4KFobqS.jpg" style="width:60%">
+				<img class="mySlides2" src="https://i.imgur.com/t2EAsvB.jpg" >
+				<img class="mySlides2" src="https://i.imgur.com/zCJPrZZ.png" >
+				<img class="mySlides2" src="https://i.imgur.com/osb7Lz9.png" >
+				<img class="mySlides2" src="https://i.imgur.com/8pmvSJI.png" >
+				<img class="mySlides2" src="https://i.imgur.com/ANIAAi9.png" >
+				<img class="mySlides2" src="https://i.imgur.com/fk6vuQY.png" >
+				<img class="mySlides2" src="https://i.imgur.com/38mGAyg.png" >
+				<img class="mySlides2" src="https://i.imgur.com/9aqAk9r.png" >
+				<img class="mySlides2" src="https://i.imgur.com/SCU69Ai.png" >
+				<img class="mySlides2" src="https://i.imgur.com/NPvWSKY.png" >
+				<img class="mySlides2" src="https://i.imgur.com/C8ySh5c.png" >
+				<img class="mySlides2" src="https://i.imgur.com/ToWcOTI.png" >
+				<img class="mySlides2" src="https://i.imgur.com/4KFobqS.jpg" >
 		</div>
 		<br><br>
 		<div>
@@ -81,25 +82,25 @@
 	<br><br>
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex4 = 1;
+showDivs4(slideIndex4);
 
 var slideIndex2 = 1;
 showDivs2(slideIndex2);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs4(n) {
+  showDivs4(slideIndex4 += n);
 }
 
-function showDivs(n) {
+function showDivs4(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("mySlides4");
   if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n < 1) {slideIndex4 = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex4-1].style.display = "block";  
 }
 
 function plusDivs2(n) {
