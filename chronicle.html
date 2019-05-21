@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" media="only screen and (max-width: 6800px)" href="styles.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 800px)" href="smallerscreen.css" >
-	<link rel="stylesheet" media="only screen and (max-width: 500px)" href="smallestscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 6800px)" href="styles.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 1100px)" href="smallerscreen.css" >
+	<link rel="stylesheet" media="only screen and (max-device-width: 400px)" href="smallestscreen.css" >
+	
 	<link href="https://fonts.googleapis.com/css?family=Jockey+One|Ruda|Monoton|Carter+One|Staatliches" rel="stylesheet">
 	<link rel="icon" href="https://i.imgur.com/3C48NKY.png" type="image/png" sizes="16x16">
 	<title>chronicle</title>
@@ -28,7 +29,7 @@
 	<br><br><br>
  
 		<div class= "title">
-			ramayana
+			chronicle
 		</div>
 		<div class= "subtitle">
 			glue bound, inkjet printed, 12" x 9" || spring 2018
@@ -42,44 +43,43 @@
 		</div>
 		<br>
 		<div class="w3-content w3-display-container">
-			<img class="mySlides" src="https://i.imgur.com/bKRmg65.gif" style="width:60%">
-			<img class="mySlides" src="https://i.imgur.com/JgQRsPB.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/MPqqked.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/q3DaosL.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/HXaYaGL.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/QwIMTBX.gif" style="width:60%">
-
-			<img class="mySlides" src="https://imgur.com/DjwBgI0.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/4NjsF6J.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/QpXSO4O.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/ugbpFyp.gif" style="width:60%">
-			<img class="mySlides" src="https://imgur.com/hkDErKb.gif" style="width:60%">
+			<img class="mySlides2" src="https://i.imgur.com/bKRmg65.gif" >
+			<img class="mySlides2" src="https://i.imgur.com/JgQRsPB.gif" >
+			<img class="mySlides2" src="https://imgur.com/MPqqked.gif" >
+			<img class="mySlides2" src="https://imgur.com/q3DaosL.gif" >
+			<img class="mySlides2" src="https://imgur.com/HXaYaGL.gif" >
+			<img class="mySlides2" src="https://imgur.com/QwIMTBX.gif" >
+			<img class="mySlides2" src="https://imgur.com/DjwBgI0.gif" >
+			<img class="mySlides2" src="https://imgur.com/4NjsF6J.gif" >
+			<img class="mySlides2" src="https://imgur.com/QpXSO4O.gif" >
+			<img class="mySlides2" src="https://imgur.com/ugbpFyp.gif" >
+			<img class="mySlides2" src="https://imgur.com/hkDErKb.gif" >
 		</div>
 		<br>
 		<div>
-			<button class="left" onclick="plusDivs(-1)"></button>
-			<button class="right" onclick="plusDivs(1)"></button>
+			<button class="left2" onclick="plusDivs2(-1)"></button>
+			<button class="right2" onclick="plusDivs2(1)"></button>
 		</div>
 		<br><br>
 	</div>
 	<button onclick="topFunction()" id="myBtn" title="go up">^go up^</button>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex2 = 1;
+showDivs2(slideIndex2);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
 }
 
-function showDivs(n) {
+function showDivs2(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex2-1].style.display = "block";  
 }
 </script>
 
