@@ -481,9 +481,13 @@
 }
 
 .footnote{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 	font-family: 'Ruda', sans-serif;
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	color: #ABDB25;
 }
 
