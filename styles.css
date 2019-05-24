@@ -479,6 +479,10 @@
 }
 
 .footnote{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 	font-family: 'Ruda', sans-serif;
 	text-align: center;
 	font-size: 18px;
@@ -584,11 +588,11 @@
 }
 
 .highlighter{
+	text-decoration: none;
 	background-color: #ABDB25;
 	font-family: 'Ruda', sans-serif;
 	margin-left: 8%;
-	font-size: 19px;
-	color: #08199C;
+	
 }
 
 .highlighter::selection{
@@ -597,6 +601,7 @@
 }
 
 .highlighter2{
+	text-decoration: none;
 	background-color: #ABDB25;
 	font-family: 'Ruda', sans-serif;
 	font-size: 19px;
@@ -606,6 +611,13 @@
 .highlighter2::selection{
 	background-color: #08199C;
 	color: #ffffff;
+}
+
+#emaildesc{
+	cursor: crosshair;
+	text-decoration: none;
+	font-size: 19px;
+	color: #08199C;
 }
 
 .cuffhlink{
