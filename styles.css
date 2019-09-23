@@ -222,7 +222,7 @@
 .list-group {
 	position: static;
   	list-style-type: none;
-	padding-top: 8%;
+	padding-top: 4%;
   	padding-right: 8%;
   	text-align: right; 	
 }
@@ -250,6 +250,7 @@
 .greenwork1 {
 	width:900px;
     	height:90px;
+	padding-top: 4%;
 	font-family: 'Staatliches', cursive;
 	font-size: 2.75vw;
 	color: #ABDB25;
