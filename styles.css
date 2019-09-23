@@ -222,6 +222,7 @@
 .list-group {
 	position: static;
   	list-style-type: none;
+	padding-top: 8%;
   	padding-right: 8%;
   	text-align: right; 	
 }
