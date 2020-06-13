@@ -76,68 +76,6 @@
 	text-transform: capitalize;
 	}	
 
-.element1{
-	font-family: 'Staatliches', monospace;
-	position: absolute;
-	
-	padding-top: 10vw;
-	font-size: 10vw;
-	letter-spacing: 4vw;
-	text-align: left;
-	color: #ffffff;
-	-webkit-text-stroke-width: 0.3vw;
-	-webkit-text-stroke-color: #08199C;
-   -webkit-animation: flickerAnimation 5s infinite;
-}
-
-.element2{
-	font-family: 'Staatliches', monospace;
-	position: absolute;
-	
-	padding-top: 50vh;
-	padding-left: 5vw;
-	letter-spacing: 2vw;
-	font-size: 7vw;
-	color: #ffffff;
-	-webkit-text-stroke-width: 0.1vw;
-	-webkit-text-stroke-color: #08199C;
-   -webkit-animation: flickerAnimation 3s infinite;
-}
-
-.element3{
-	font-family: 'Staatliches', monospace;
-	position: absolute;
-	
-	padding-top: 75vh;
-	padding-left: 55vw;
-	letter-spacing: 2vw;
-	font-size: 5vw;
-	color: #ffffff;
-	-webkit-text-stroke-width: 0.2vw;
-	-webkit-text-stroke-color: #08199C;
-   	-webkit-animation: flickerAnimation 4s infinite;
-}
-
-.element4{
-	font-family: 'Staatliches', monospace;
-	position: absolute;
-	
-	padding-top: 110vh;
-	padding-left: 20vw;
-	letter-spacing: 10px;
-	font-size: 12vw;
-	color: #ffffff;
-	-webkit-text-stroke-width: 0.2vw;
-	-webkit-text-stroke-color: #08199C;
-   -webkit-animation: flickerAnimation 2s infinite;
-}
-
-@keyframes flickerAnimation {
-  0%   { opacity:0.5;}
-  50%  { opacity:0.05;}
-  100% { opacity:0.8;}
-}
-
 
 .list-group {
 	display: block;
@@ -190,6 +128,19 @@
 	opacity: 100%;
 	color: white;
 	text-decoration: none;
+}
+
+.coopimg {
+    display: none;
+    z-index: 9999;
+}
+.greenwork1:hover + .coopimg {
+	display: block;
+}
+.coopshow {
+	position: absolute;
+	width: 40%;
+	left: 50%;
 }
 
 .portoimg {
@@ -250,6 +201,7 @@
 	position: absolute;
 	margin-top: -20vh;
 	left: 60%;
+	width: 20%;
 }
 
 .ecoimg{
@@ -577,23 +529,14 @@
 	font-family: 'Playfair Display', serif;
 }
 
-.alignleft2{
-	float: left;
-	display: inline-block;
-	font-weight: bold;
-	font-size: 1.5vw;
-	color: #aaaaaa;
-	font-family: 'Playfair Display', serif;
-}
 
 
 .body{
 	z-index: -20;
 	display: inline-block;
 	font-family: 'Playfair Display', serif;
-	width: 67%;
+	width: 60%;
 	float: left;
-	letter-spacing: -1px;
 	text-align: justify;
 	font-size: 1.1vw;
 	color: black;
@@ -1378,6 +1321,20 @@
 	color: #009b04;
 	text-decoration: none;
 	}
+
+.coop2img {
+    display: none;
+    z-index: 9999;
+}
+.greenwork2:hover + .coop2img {
+	display: block;
+}
+.coop2show {
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	width: 30%;
+	right: 30%;
+}
 
 .porto2img {
     display: none;
